@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("apedra.jpg");
+
+  /* Add the blur effect */
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 95%;
+}
